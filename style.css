@@ -1,0 +1,211 @@
+
+a {
+	letter-spacing: 3px;
+}
+
+ ul {
+    	list-style: none;
+    }
+
+.navbar-brand {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 1.5rem;
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-toggler {
+  outline: none;
+}
+
+.title-container {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    background: transparent;
+ }
+
+ .title {
+   color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height:50%;
+    margin: auto;
+    z-index: 2;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+ }
+
+.mc {
+  position: relative;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(assets/RK5bg.jpg);
+  background-size: cover;
+}
+
+.mc .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+#lp-footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 4%;
+}
+
+#footer-nav-list {
+	list-style: none;
+}
+
+#footer-nav-list li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#footer-nav-list li a {
+	color: inherit; 
+}
+
+#footer-nav-list li:hover{
+	text-decoration: underline;
+}
+
+.container {
+	padding: 50px;
+}
+
+#gallery-link{
+	margin: 0 25% 0 26%;
+}
+
+button {
+	outline: none;
+}
+
+
+#gallery-title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+	padding-top: 10px;
+}
+
+.gallery-anchor img {
+      margin-bottom: 10%;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    #galleryContainer {
+
+    }
+
+    .navbar-expand-lg .navbar-nav {
+    	padding-top: 5px;
+    }
+
+    #bio-container p {
+    	font-family: 'Montserrat', sans-serif;
+    }
+
+    .connect-container{
+    	font-family: 'Montserrat', sans-serif;
+    	width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 10%;
+		font-size: 1.5rem;
+    }
+
+    .connect-item a {
+    	color: black;
+    }
+
+     .connect-container img {
+     	width: 150px;
+     	margin-bottom: 10%
+     }
+
+
+@media(min-width: 992px){
+	.nav-link{
+	 display:none;
+
+	}
+
+	.gallery-nav-link{
+		display: inline-block;
+	}
+
+}
+
+	@media(max-width: 991px){
+	.mc{
+      display: block;
+      position: absolute;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .navbar{
+      z-index: 2;
+    }
+    .mc .overlay {
+      position: fixed;
+    }
+
+    #lp-footer {
+    	display: none;
+    }
+
+    .connect-container{
+		font-size: 1.5rem;
+	}
+
+	.connect-item {
+		margin-bottom: 15%;
+	}
+
+	.connect-container img{
+		margin-bottom: 3%;
+	}
+
+
+	@media(max-width: 400px){
+		.title{
+			font-size: 1.25rem;
+		}
+	}
+
+	@media(max-width: 350px){
+		.title{
+			font-size: 1rem;
+		}
+	}
+}
